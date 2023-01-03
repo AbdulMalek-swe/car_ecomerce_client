@@ -35,7 +35,7 @@ const Order = () => {
     }
     console.log(myProducts);
 
-    fetch('http://localhost:5000/orders', {
+    fetch('https://car-ecomerce-api-m6a7.vercel.app/orders', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
@@ -53,7 +53,7 @@ const Order = () => {
     e.preventDefault();
   }
   useEffect(() => {
-    const url = `http://localhost:5000/products/${id}`
+    const url = `https://car-ecomerce-api-m6a7.vercel.app/products/${id}`
     fetch(url)
       .then(res => res.json())
       .then(data => {

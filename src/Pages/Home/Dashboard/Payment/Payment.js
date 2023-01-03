@@ -9,7 +9,7 @@ const Payment = () => {
   const { id } = useParams();
   const [product, setProduct] = useState([]);
   useEffect(() => {
-    const url = `http://localhost:5000/orders/${id}`
+    const url = `https://car-ecomerce-api-m6a7.vercel.app/orders/${id}`
     fetch(url)
       .then(res => res.json())
       .then(data => {

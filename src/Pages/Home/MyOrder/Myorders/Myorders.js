@@ -11,7 +11,7 @@ const Myorders = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        const url = `http://localhost:5000/orders`
+        const url = `https://car-ecomerce-api-m6a7.vercel.app/orders`
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -24,7 +24,7 @@ const Myorders = () => {
     const deleteData = (item) => {
         const proced = window.confirm('Are you want to cancel this order?');
         if (proced) {
-            const url = `http://localhost:5000/orders/${item}`
+            const url = `https://car-ecomerce-api-m6a7.vercel.app/orders/${item}`
             fetch(url, {
                 method: 'DELETE'
             })

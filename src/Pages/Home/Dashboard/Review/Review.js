@@ -23,7 +23,7 @@ const Review = () => {
 
             }
             console.log(myProducts)
-            fetch('http://localhost:5000/review', {
+            fetch('https://car-ecomerce-api-m6a7.vercel.app/review', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

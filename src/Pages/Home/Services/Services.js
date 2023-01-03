@@ -6,7 +6,7 @@ import Service from '../Service/Service';
 const Services = () => {
     const [service, setService] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/products`
+        const url = `https://car-ecomerce-api-m6a7.vercel.app/products`
         fetch(url)
             .then(res => res.json())
             .then(data => {

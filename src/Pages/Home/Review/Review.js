@@ -10,7 +10,7 @@ import ShowMoreText from "react-show-more-text";
 const Review = () => {
   const [review, setReview] = useState([])
   useEffect(() => {
-    const url = `http://localhost:5000/review`;
+    const url = `https://car-ecomerce-api-m6a7.vercel.app/review`;
     fetch(url)
       .then(res => res.json())
       .then(data => {

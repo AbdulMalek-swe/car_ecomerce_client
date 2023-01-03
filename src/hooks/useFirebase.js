@@ -91,7 +91,7 @@ const useFirebase = () => {
   }
 
   useEffect(() => {
-    fetch(`http://localhost:5000/users/${user?.email}`)
+    fetch(`https://car-ecomerce-api-m6a7.vercel.app/users/${user?.email}`)
       .then(res => res.json())
       .then(data => {
         // console.log(data)
@@ -102,7 +102,7 @@ const useFirebase = () => {
 
   const saveUser = (email, displayName, method) => {
     const user = { email, displayName }
-    const url = `http://localhost:5000/users`;
+    const url = `https://car-ecomerce-api-m6a7.vercel.app/users`;
     fetch(url, {
       method: 'POST',
       headers: {

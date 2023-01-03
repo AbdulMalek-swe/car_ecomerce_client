@@ -5,7 +5,7 @@ import { Card, ListGroup } from 'react-bootstrap';
 const Allproduct = () => {
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/orders`
+        const url = `https://car-ecomerce-api-m6a7.vercel.app/orders`
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -17,7 +17,7 @@ const Allproduct = () => {
     const deleteData = (item) => {
         const proced = window.confirm('are you delete your data');
         if (proced) {
-            const url = `http://localhost:5000/orders/${item}`
+            const url = `https://car-ecomerce-api-m6a7.vercel.app/orders/${item}`
             fetch(url, {
                 method: 'DELETE'
             })
