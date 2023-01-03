@@ -1,0 +1,17 @@
+.footer-area{
+    background-color: black;
+}
+.footer ul li{
+    color: rgb(245, 238, 238);
+    list-style: none;
+    padding: 12px;
+    /* color: #a19f9f70; */
+}
+.footer ul li:hover{
+    text-decoration: underline;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.footer p{
+    color: #fff;
+}

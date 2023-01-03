@@ -1,0 +1,83 @@
+const pd= [
+     {
+         id:1,
+         name : "HURACÁN STO: MAGNESIUM RIMS",
+         pic: "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2021/11_10_sto_magnesio/sto_magnesio_cover.jpg",
+         price:"100000",
+         desc : "For Huracán STO, Lamborghini developed specific rims called “HEK” that feature a strong racing character and introduce a significant evolution in terms of materials: among the available options, 20” magnesium rims. "
+    
+    },
+     {
+         id:2,
+         name : "BRUSSELS: LAMBORGHINI’S UNSTOPPABLE TRAVEL GUIDE",
+         pic: "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2021/11_13_brussels/brussels_cover_m.jpg",
+         price:"200000",
+         desc : "Lamborghini Huracán STO has a deeply European spirit, and for this reason it could not miss a visit to Brussels, the European capital par excellence.The tour begins at the Royal Palace, official residence of the King of Belgium, and continues to the stunning Grand Place, considered one of the most beautiful squares in the world, overlooked by numerous historic buildings such as the Town Hall, the Maison du Roi, and the Maison des Corporations. "
+    
+    },
+     {
+         id:3,
+         name : "LAMBORGHINI ADOPTS WHAT3WORDS IN ALL HURACÁN MODELS",
+         pic: "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2021/11_10_what3words/what3words_cover_mobile.jpg",
+         price:"300000",
+         desc : "What3words is arriving on Lamborghini Huracán and voice navigation has never been so easy. Thanks to the new partnership with the Alexa-enabled innovative global addressing technology, starting in mid-2022 Lamborghini drivers will be able to navigate to exclusive locations with greater accuracy, also offline, using this highly advanced mapping system that covers every portion of the world."
+    
+    },
+     {
+         id:4,
+         name : "A THRILLING LAMBORGHINI DAY JAPAN",
+         pic: "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2021/11_11_japan/japan_cover_a_m.jpg",
+         price:"400000",
+         desc : "Lamborghini Day Japan 2021  thrilled the Triangular Square, Shinjuku Sumitomo Building in Tokyo, to commemorate the 50th anniversary of Countach. For this special event, 10 Countach models selected from the “Lamborghini Countach Contest Japan” where exhibited, while over 70 Lamborghinis and 20 Countachs paraded through Tokyo in a majestic atmosphere."
+    
+    },
+     {
+         id:5,
+         name : "The Integra Legacy Is Reborn",
+         pic: "https://www.acura.com/-/media/Acura-Platform/Non-Vehicle-Pages/Future-Vehicles/Rocket-Name-Reveal/Hero/Landing-Rocket-Announcement-FV-Hero_L.jpeg",
+         price:"350000",
+         desc : "Over 30 years ago, the Integra hit the streets fueled by passion and youthful energy. That same spirit of the original premium sport compact returns as a bold 5-door design to deliver legendary emotional performance with versatility. Coated in Indy Yellow Pearl, the Integra Prototype pays homage to the Phoenix Yellow of the legendary 2000-2001 Integra Type R."
+    
+    },
+     {
+         id:6,
+         name : "BLAZING ORANGE PEAR",
+         pic: "https://automobiles.honda.com/-/media/Honda-Automobiles/Vehicles/2022/Civic-Si-Sedan/non-VLP/Homepage-Hero/MY22-Civic-Si-Sedan-non-VLP-homepage-hero-1024-2x.jpg",
+         price:"320000",
+         desc : "Over 30 years ago, the Integra hit the streets fueled by passion and youthful energy. That same spirit of the original premium sport compact returns as a bold 5-door design to deliver legendary emotional performance with versatility. Coated in Indy Yellow Pearl, the Integra Prototype pays homage to the Phoenix Yellow of the legendary 2000-2001 Integra Type R."
+    
+    },
+     {
+         id:7,
+         name : "RESERVATION FAQ",
+         pic: "https://www.cadillac.com/content/dam/cadillac/na/us/english/index/vehicles/future-and-concept/electric-vehicles/lyriq-reserve-now/01-images/my23-lyriq-reservation-get-started-l-v3.jpg",
+         price:"444000",
+         desc : "2023 Cadillac LYRIQ Debut Edition reservations are full, but more vehicles will be available to order through your Cadillac dealer starting the Summer of 2022. Contact your dealer for more details."
+    
+    },
+     {
+         id:8,
+         name : "BRUSSELS: LAMBORGHINI’S UNSTOPPABLE TRAVEL GUIDE",
+         pic: "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2021/11_13_brussels/brussels_cover.jpg",
+         price:"432000",
+         desc : "The tour begins at the Royal Palace, official residence of the King of Belgium, and continues to the stunning Grand Place, considered one of the most beautiful squares in the world, overlooked by numerous historic buildings such as the Town Hall, the Maison du Roi, and the Maison des Corporations."
+    
+    },
+     {
+         id:9,
+         name : "LAMBORGHINI’S HUMAN SIDE: UNPRECEDENTED FOR MOVEMBER",
+         pic: "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2021/10_25_movember_board/cover_movember_board.jpg",
+         price:"232000",
+         desc : "Dubai owes its nickname 'City of Superlatives' to the spectacular architectural marvels the city has produced: the perfect backdrop for the timeless appeal of "
+    
+    },
+     {
+         id:10,
+         name : "DUBAI: LAMBORGHINI’S UNSTOPPABLE TRAVEL GUIDE",
+         pic: "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2021/10_29_dubai_unstoppable/dubai_unstoppable_cover_mobile.jpg",
+         price:"455500",
+         desc : "The capital of the United Arab Emirates is home to some of the most incredible buildings in the world. Soaring skyscrapers, a crescent moon-shaped tower, a rotating skyscraper, and tennis courts suspended i"
+    
+    }
+    
+]
