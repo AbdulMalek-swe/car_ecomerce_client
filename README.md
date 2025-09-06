@@ -17,4 +17,4 @@ https://github.com/programming-hero-web-course-4/niche-website-client-side-12abd
 
 ## When anyone click the buy button then he goes to login when he is a new user then he registers the website otherwise he could not buy a car because the order page is highly protected on private routes.
 
-## This website has an admin panel and only admin can see this page. the system has also all product menu bar , review system , my order and many others feature are there
+## This website has and admin panel so we do it
