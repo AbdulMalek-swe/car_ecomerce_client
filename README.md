@@ -13,8 +13,5 @@ https://github.com/programming-hero-web-course-4/niche-website-client-side-12abd
 
 ## This is a complete full stack project .you can easily order your favourite car and get it . complete this website by using Node,material ui, react ,css,html,js,firebase.it is a car collection website..
 
-## i used firebase for the login system and also solved redirects and reload issue.
-
-## When anyone click the buy button then he goes to login when he is a new user then he registers the website otherwise he could not buy a car because the order page is highly protected on private routes.
-
-## This website has and admin panel so we do it
+## i use express js 
+ 
